@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Network Visualizer</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--<div class="container col-md-4" id="left-container">
+
+			<div class="container" id="dataset-graph-container">
+				<canvas id="dataset-graph"></canvas>
+			</div>
+
+			<div class="container" id="prediction-graph-container">
+				<canvas id="prediction-graph"></canvas>
+			</div>
+
+			<div class="container" id="curve-graph-container">
+				<canvas id="curve-graph"></canvas>
+			</div>
+		</div>
+		<div class="container col-md-8" id="right-container">
+
+			<canvas id="network-graph"></canvas>
+			<div class="container" id="network-log"></div>
+			<div class="container" id="network-controls"></div>
+		</div>-->
+
+		<canvas id="network-graph"></canvas>
+
+		<canvas id="dataset-graph"></canvas>
+
+		<!--Lib-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/sylvester/0.1.3/sylvester.min.js"></script>
+		<script src="utils.js"></script>
+		<script src="https://turbo.github.io/js/turbo.js"></script>
+
+		<!--Modules-->
+		<script src="Dataset.js"></script>
+		<script src="WebGLContext.js"></script>
+		<script src="WebGLRenderer.js"></script>
+
+		<!--Main-->
+		<script src="main.js"></script>
+	</body>
+</html>

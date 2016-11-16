@@ -1,0 +1,30 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+canvas{
+	background-color: #d3d3d3;
+}
+
+.container{
+	margin: 0px;
+	padding: 0px !important;
+}
+
+#network-graph{
+	z-index: 1000;
+	position: absolute;
+}
+
+#dataset-graph{
+	border: solid #d3d3d3 1px;
+	z-index: 1001;
+	position: absolute;
+}
+
+#prediction-graph{
+}
+
+#curve-graph{
+}
